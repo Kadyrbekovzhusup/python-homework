@@ -1,8 +1,21 @@
-def sum(a, b, c, d ):
-    
-    return year*a, year*b, year*c, year*d
+year=(int(input("Enter year: ")))
 
-year=int(input("Provide year: "))
+def days(a):
+    return year*a
+day = days(365)
+print(f"In {year} years has {day} days ")
 
-hi = sum(365, 52, 12, 8760 )
-print(hi)
+def weeks(b):
+    return year*b
+week = weeks(52)
+print(f"In {year} years has {week} weeks ")
+
+def month(c):
+    return year*c
+month = month(12)
+print(f"In {year} years has {month} month ")
+
+def hour(d):
+    return year*d
+hour = hour(8760)
+print(f"In {year} years has {hour} hours ")

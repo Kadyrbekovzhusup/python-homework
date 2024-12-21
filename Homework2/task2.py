@@ -1,9 +1,23 @@
-def sum(a, b):
-    return a+b, a-b, a*b, a/b
-num1=int(input("Enter the number: "))
-num2=int(input("Enter the number: "))
+num1 = int(input("Enter number: "))
+num2 = int(input("Enter number: "))
 
-hi = sum(num1, num2)
-print(hi)
-print("There we added, subtracted, ultiplied, divided your numbers")
-    
+def add(a,b):
+    return a+b
+add= add(num1, num2)
+print(f"If {num1} add to {num2} result will be {add} ")
+
+
+def add(a,b):
+    return a-b
+add= add(num1, num2)
+print(f"If {num1} subtract to {num2} result will be {add} ")
+
+def add(a,b):
+    return a*b
+add= add(num1, num2)
+print(f"If {num1} multiplie to {num2} result will be {add} ")
+
+def add(a,b):
+    return a/b
+add= add(num1, num2)
+print(f"If {num1} divide to {num2} result will be {add} ")
